@@ -1,4 +1,17 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@theme {
+    --color-*: initial;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-slate: #666666;
+    --color-blue: #2f4d91;
+    --color-green: #3d9c46;
+}
+
+@utility container {
+    max-width: 1000px;
+}
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -6,6 +19,43 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+
+@import "./header.css";
+@import "./footer.css";
+
+.overlay {
+    position: relative;
+}
+
+.overlay::before {
+    content: "";
+
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.15) 10%,
+        transparent 50%
+    );
+
+    position: absolute;
+
+    inset: 0;
+}
+/*
+.overlay > * {
+    position: relative;
+    z-index: 1;
+} */
+
+.masthead::after {
+    content: "";
+
+    height: 0;
+    padding-top: calc(545 / 1250 * 100%);
+
+    display: block;
 }

@@ -2,14 +2,13 @@
 
 <head>
     <title>App Name - @yield('title')</title>
+    @vite('resources/css/app.css')
 </head>
 
 <body>
     @include('partials.header')
 
-    <div class="container">
-        @yield('content')
-    </div>
+    @yield('content')
 
     @include('partials.footer')
 </body>
