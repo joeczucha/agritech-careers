@@ -8,7 +8,7 @@
                 </p>
                 <p class="mt-4 text-2xl text-green font-bold">West Cork, Waterford, North Laois, & South Kildare areas
                 </p>
-                <a href="#"
+                <a href="#apply"
                     class="inline-block bg-green mt-8 px-9 py-2 rounded-md text-white text-xl font-bold">Apply
                     today</a>
             </div>
