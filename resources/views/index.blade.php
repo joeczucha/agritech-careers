@@ -7,5 +7,5 @@
     @include('components.spec')
     @include('components.testimonials')
     @include('components.message')
-    @include('components.form')
+    <livewire:form />
 @endsection
