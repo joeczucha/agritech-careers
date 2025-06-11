@@ -1,7 +1,7 @@
 <div class="min-h-[960px] bg-[#F2F2F2] px-4 py-12">
-    <div class="container mx-auto grid grid-cols-[1fr_350px] gap-15">
+    <div class="container mx-auto grid grid-cols-[1fr_350px] gap-[60px]">
         <div>
-            <h1 class="text-5xl/14 text-blue">Join our team as a full time Sales Advisor</h1>
+            <h1 class="text-5xl leading-tight text-blue">Join our team as a full time Sales Advisor</h1>
             <div class="max-w-[400px]">
                 <p class="mt-5 text-2xl text-blue font-bold">We currently have vacancies across our regional sales
                     network.
@@ -17,7 +17,7 @@
             <img src="./img/map.svg" alt="Map of Ireland">
         </div>
     </div>
-    <div class="mt-12 container mx-auto grid grid-cols-3 gap-25">
+    <div class="mt-12 container mx-auto grid grid-cols-3 gap-[100px]">
         <div>
             <div class="flex justify-center items-end mb-5 h-[95px]">
                 <img src="./img/financial-success.svg" alt="Financial success icon" class="h-[95px]" />
@@ -48,7 +48,7 @@
             agribusiness.</p>
 
     </div>
-    <div class="mt-12 container mx-auto grid grid-cols-3 gap-25">
+    <div class="mt-12 container mx-auto grid grid-cols-3 gap-[100px]">
         <div>
             <h2 class="text-lg font-bold text-slate">What You'll Do</h2>
             <ul class="mt-2 list-disc pl-5 text-slate">
