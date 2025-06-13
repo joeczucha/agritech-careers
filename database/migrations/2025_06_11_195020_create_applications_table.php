@@ -16,10 +16,11 @@ return new class extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->string('email');
-            $table->string('linkedin_profile');
             $table->string('phone');
             $table->string('location');
-            $table->text('cover_note');
+            $table->string('linkedin_profile')->nullable();
+            $table->text('cover_note')->nullable();
+            $table->text('attachments')->nullable();
             $table->timestamps();
         });
     }
