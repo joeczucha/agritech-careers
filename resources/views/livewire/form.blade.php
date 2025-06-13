@@ -3,7 +3,7 @@
         <h1 class="text-3xl sm:text-4xl text-blue text-center mb-12">Apply today</h1>
         <form wire:submit="create">
             {{ $this->form }}
-            <div class="flex flex-col items-end">
+            <div class="relative flex flex-col items-end">
                 <button type="submit" class="bg-green text-white text-lg px-4 py-2 rounded-md inline-block mt-6">
                     Apply now
                 </button>
