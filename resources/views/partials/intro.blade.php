@@ -1,4 +1,4 @@
-<div class="px-4 py-12 flex flex-col gap-10">
+<div class="py-12 flex flex-col gap-10">
     <div class="container mx-auto">
         <h1 class="font-medium text-xl text-green ">Why Agritech</h1>
         <p class="mt-6 text-2xl text-slate">At Agritech, we strongly believe in creating a work culture that fosters
