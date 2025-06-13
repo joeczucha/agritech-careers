@@ -45,9 +45,9 @@
     </div>
     <div class="mt-12 container mx-auto">
         <p class="text-lg text-slate">At Agritech, you'll have the independence to build relationships, grow your
-            income, and develop your potential. With unlimited earning opportunity, long-term progression, and a team
-            that backs you every step of the way, this is your chance to build a successful professional sales career in
-            agribusiness.</p>
+            income, and develop your potential.<br class="sm:hidden" /><br class="sm:hidden" /> With unlimited earning
+            opportunity, long-term progression, and a team that backs you every step of the way, this is your chance to
+            build a successful professional sales career in agribusiness.</p>
 
     </div>
     <div class="mt-12 container mx-auto grid sm:grid-cols-3 gap-12 sm:gap-25">
