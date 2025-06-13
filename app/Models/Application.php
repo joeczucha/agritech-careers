@@ -18,5 +18,10 @@ class Application extends Model
         'phone',
         'location',
         'cover_note',
+        'attachments'
+    ];
+
+    protected $casts = [
+        'attachments' => 'array',
     ];
 }
