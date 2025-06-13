@@ -42,23 +42,17 @@ class Form extends Component implements HasForms
                             TextInput::make('email')
                                 ->email()
                                 ->required(),
-                            TextInput::make('linkedin')
-                                ->label('LinkedIn profile')
-                                ->placeholder('https://www.linkedin.com/in/candidatename'),
-                            Select::make('phone_country')
-                                ->label('Phone')
-                                ->options([
-                                    'IE' => '🇮🇪 +353',
-                                    // Add more countries as needed
-                                ])
-                                ->required()
-                                ->columnSpan(1),
                             TextInput::make('phone')
+                                ->tel()
                                 ->placeholder('+353')
                                 ->required()
                                 ->columnSpan(1),
                             TextInput::make('location')
                                 ->required(),
+                            TextInput::make('linkedin_profile')
+                                ->url()
+                                ->placeholder('https://www.linkedin.com/in/candidatename'),
+
                         ]),
                         RichEditor::make('cover_note')
                             ->placeholder('Please provide details on your most relevant skills')
