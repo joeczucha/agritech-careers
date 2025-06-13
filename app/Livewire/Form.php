@@ -36,13 +36,10 @@ class Form extends Component implements HasForms
                     ->schema([
                         Grid::make(2)->schema([
                             TextInput::make('first_name')
-                                ->label('First name')
                                 ->required(),
                             TextInput::make('last_name')
-                                ->label('Last name')
                                 ->required(),
                             TextInput::make('email')
-                                ->label('Email')
                                 ->email()
                                 ->required(),
                             TextInput::make('linkedin')
@@ -57,16 +54,13 @@ class Form extends Component implements HasForms
                                 ->required()
                                 ->columnSpan(1),
                             TextInput::make('phone')
-                                ->label('')
                                 ->placeholder('+353')
                                 ->required()
                                 ->columnSpan(1),
                             TextInput::make('location')
-                                ->label('Location')
                                 ->required(),
                         ]),
                         RichEditor::make('cover_note')
-                            ->label('Cover note')
                             ->placeholder('Please provide details on your most relevant skills')
                             ->columnSpanFull()
                             ->toolbarButtons([
