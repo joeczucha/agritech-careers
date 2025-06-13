@@ -1,8 +1,8 @@
 <div class="bg-[#fefefe] px-4 py-12">
     <div class="container mx-auto">
         <h1 class="text-5xl text-blue text-center mb-12">What our people are saying</h1>
-        <div class="grid grid-cols-2 gap-8">
-            <div class="flex flex-col-reverse gap-8">
+        <div class="grid sm:grid-cols-2 gap-8">
+            <div class="flex flex-col sm:flex-col-reverse gap-8">
                 <img src="./img/testimonial-1.jpg" alt="Agritech team working together">
                 <blockquote>
                     <h3 class="text-xl text-blue font-semibold mb-4">Freedom to succeed</h3>

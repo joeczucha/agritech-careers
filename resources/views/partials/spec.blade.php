@@ -1,8 +1,8 @@
-<div class="min-h-[960px] bg-[#F2F2F2] px-4 py-12">
-    <div class="container mx-auto grid grid-cols-[1fr_350px] gap-[60px]">
+<div class="min-h-240 bg-[#F2F2F2] px-4 py-12">
+    <div class="container mx-auto grid sm:grid-cols-[1fr_350px] gap-15">
         <div>
             <h1 class="text-5xl leading-tight text-blue">Join our team as a full time Sales Advisor</h1>
-            <div class="max-w-[400px]">
+            <div class="max-w-100">
                 <p class="mt-5 text-2xl text-blue font-bold">We currently have vacancies across our regional sales
                     network.
                 </p>
@@ -17,24 +17,24 @@
             <img src="./img/map.svg" alt="Map of Ireland">
         </div>
     </div>
-    <div class="mt-12 container mx-auto grid grid-cols-3 gap-[100px]">
+    <div class="mt-12 container mx-auto grid sm:grid-cols-3 gap-12 sm:gap-25">
         <div>
-            <div class="flex justify-center items-end mb-5 h-[95px]">
-                <img src="./img/financial-success.svg" alt="Financial success icon" class="h-[95px]" />
+            <div class="flex justify-center items-end mb-5 h-24">
+                <img src="./img/financial-success.svg" alt="Financial success icon" class="h-24" />
             </div>
             <p class="text-green text-center font-bold">You can be confident your hard work will be rewarded with
                 financial success.</p>
         </div>
         <div>
-            <div class="flex justify-center items-end mb-5 h-[95px]">
-                <img src="./img/experienced-team.svg" alt="Experienced team icon" class="h-[80px]" />
+            <div class="flex justify-center items-end mb-5 h-24">
+                <img src="./img/experienced-team.svg" alt="Experienced team icon" class="h-20" />
             </div>
             <p class="text-green text-center font-bold">You will be working with our well known product range and an
                 experienced team.</p>
         </div>
         <div>
-            <div class="flex justify-center items-end mb-5 h-[95px]">
-                <img src="./img/strong-company.svg" alt="Strong company icon" class="h-[95px]" />
+            <div class="flex justify-center items-end mb-5 h-24">
+                <img src="./img/strong-company.svg" alt="Strong company icon" class="h-24" />
             </div>
             <p class="text-green text-center font-bold">Be in control of your career
                 with the full support of a strong
@@ -48,7 +48,7 @@
             agribusiness.</p>
 
     </div>
-    <div class="mt-12 container mx-auto grid grid-cols-3 gap-[100px]">
+    <div class="mt-12 container mx-auto grid sm:grid-cols-3 gap-12 sm:gap-25">
         <div>
             <h2 class="text-lg font-bold text-slate">What You'll Do</h2>
             <ul class="mt-2 list-disc pl-5 text-slate">

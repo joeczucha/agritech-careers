@@ -6,8 +6,8 @@
             a key part in delivering high quality agricultural solutions that meet the
             needs of farmers in their locality.</p>
     </div>
-    <div class="container mx-auto grid grid-cols-5">
-        <div class="col-span-3 px-10 py-4">
+    <div class="container mx-auto grid sm:grid-cols-5">
+        <div class="col-span-3 sm:px-10 py-4">
             <img src="./img/range.jpg" alt="The Agritech range">
         </div>
         <div class="col-span-2 p-4">

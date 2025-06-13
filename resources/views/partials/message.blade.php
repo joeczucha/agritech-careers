@@ -1,5 +1,5 @@
 <div class="bg-[#2F4D91] py-6">
-    <div class="container mx-auto grid grid-cols-2 gap-8">
+    <div class="container mx-auto grid sm:grid-cols-2 gap-8">
         <div>
             <img src="./img/message.png" alt="">
         </div>
