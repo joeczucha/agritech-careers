@@ -1,5 +1,5 @@
 <div class="min-h-240 bg-[#F2F2F2] px-4 py-12">
-    <div class="container mx-auto grid sm:grid-cols-[1fr_350px] gap-15">
+    <div class="container mx-auto grid sm:grid-cols-[1fr_350px] gap-16">
         <div>
             <h1 class="text-5xl leading-tight text-blue">Join our team as a full time Sales Advisor</h1>
             <div class="max-w-100">
