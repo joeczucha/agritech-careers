@@ -14,6 +14,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Forms;
+use Filament\Support\Facades\FilamentColor;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
@@ -26,6 +27,9 @@ class Form extends Component implements HasForms
     public function mount(): void
     {
         $this->form->fill();
+        FilamentColor::register([
+            'primary' => '#3d9c46',
+        ]);
     }
 
     public function form(Forms\Form $form): Forms\Form
