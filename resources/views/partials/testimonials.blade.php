@@ -1,6 +1,6 @@
 <div class="bg-[#fefefe] px-4 py-12">
     <div class="container mx-auto">
-        <h1 class="text-5xl text-blue text-center mb-12">What our people are saying</h1>
+        <h1 class="text-4xl sm:text-5xl text-blue text-center mb-12">What our people are saying</h1>
         <div class="grid sm:grid-cols-2 gap-8">
             <div class="flex flex-col sm:flex-col-reverse gap-8">
                 <img src="./img/testimonial-1.jpg" alt="Agritech team working together">

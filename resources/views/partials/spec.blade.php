@@ -1,12 +1,14 @@
 <div class="min-h-240 bg-[#F2F2F2] px-4 py-12">
     <div class="container mx-auto grid sm:grid-cols-[1fr_350px] gap-16">
         <div>
-            <h1 class="text-5xl leading-tight text-blue">Join our team as a full time Sales Advisor</h1>
+            <h1 class="text-4xl sm:text-5xl leading-tight text-blue">Join our team as a full time Sales Advisor</h1>
             <div class="max-w-100">
-                <p class="mt-5 text-2xl text-blue font-bold">We currently have vacancies across our regional sales
+                <p class="mt-5 text-xl sm:text-2xl text-blue font-bold">We currently have vacancies across our regional
+                    sales
                     network.
                 </p>
-                <p class="mt-4 text-2xl text-green font-bold">West Cork, Waterford, North Laois, & South Kildare areas
+                <p class="mt-4 text-xl sm:text-2xl text-green font-bold">West Cork, Waterford, North Laois, & South
+                    Kildare areas
                 </p>
                 <a href="#apply"
                     class="inline-block bg-green mt-8 px-9 py-2 rounded-md text-white text-xl font-bold">Apply

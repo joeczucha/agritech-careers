@@ -37,9 +37,15 @@ html {
     content: "";
 
     height: 0;
-    padding-top: calc(545 / 1250 * 100%);
+    padding-top: 100%;
 
     display: block;
+}
+
+@media screen(sm) {
+    .masthead::after {
+        padding-top: calc(545 / 1250 * 100%);
+    }
 }
 
 .fi-fo-field-wrp-label span {
