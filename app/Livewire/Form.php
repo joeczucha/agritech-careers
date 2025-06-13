@@ -68,12 +68,17 @@ class Form extends Component implements HasForms
                                 'redo',
                                 'undo',
                             ]),
-                        FileUpload::make('cv')
+                        FileUpload::make('attachments')
+                            ->live()
                             ->label('Upload CV')
                             ->acceptedFileTypes(['application/pdf'])
-                            ->preserveFilenames()
                             ->columnSpanFull()
-                            ->required(),
+                            ->multiple()
+                            ->maxParallelUploads(1)
+                            ->maxFiles(3)
+                            ->directory('attachments')
+                            ->visibility('private')
+                            ->moveFiles(),
                     ])
             ])
             ->statePath('data');
