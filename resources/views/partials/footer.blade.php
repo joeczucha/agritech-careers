@@ -1,7 +1,7 @@
 <footer class="border-top: 2px solid rgba(255, 255, 255, 0.5) text-white text-sm font-bold">
     <div
         class="py-[64px] bg-[#21397D] bg-[url('https://agritech.ie/wp-content/uploads/2016/07/logo-bg.png')] bg-no-repeat bg-center bg-contain">
-        <div class="container mx-auto grid grid-cols-12 gap-[60px]">
+        <div class="container mx-auto grid md:grid-cols-12 gap-[60px]">
             <div class="col-span-3">
                 <h3 class="text-2xl mb-4">Get In Touch</h3>
                 <p>AGRITECH</p>
