@@ -35,7 +35,9 @@ class ApplicationMailer extends Mailable
 
     public function attachments(): array
     {
-        ray($this->application->attachments);
-        return $this->application->attachments;
+        return collect($this->application->attachments)
+            ->map(fn($path) => storage_path("app/public/{$path}"))
+            ->filter(fn($fullPath) => file_exists($fullPath))
+            ->toArray();
     }
 }
