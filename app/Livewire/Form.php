@@ -56,7 +56,6 @@ class Form extends Component implements HasForms
                             TextInput::make('linkedin_profile')
                                 ->url()
                                 ->placeholder('https://www.linkedin.com/in/candidatename'),
-
                         ]),
                         RichEditor::make('cover_note')
                             ->placeholder('Please provide details on your most relevant skills')
