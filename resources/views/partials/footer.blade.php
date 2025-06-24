@@ -36,45 +36,20 @@
 
             <div class="col-span-4">
                 <h3 class="text-2xl mb-4">Latest News</h3>
-                <ul>
-                    <li class="mb-4">
-                        <a href="https://agritech.ie/achieving-replacement-heifer-weights/" class="flex flex-col">
-                            <span class="text-[#a7c2d7] text-base">Achieving replacement heifer
-                                weights</span>
-                            <span class="text-xs ml-4">read more »</span>
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="https://agritech.ie/why-quality-silage-matters/" class="flex flex-col"><span
-                                class="text-[#a7c2d7] text-base">Why
-                                quality
-                                silage
-                                matters</span>
-                            <span class="text-xs ml-4">read more »</span>
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="https://agritech.ie/the-benefits-of-reseeding/" class="flex flex-col"><span
-                                class="text-[#a7c2d7] text-base">The
-                                Benefits of
-                                Reseeding</span>
-                            <span class="text-xs ml-4">read more »</span>
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="https://agritech.ie/best-practices-to-encourage-rumen-development/"
-                            class="flex flex-col"><span class="text-[#a7c2d7] text-base">Best
-                                practices to encourage rumen development</span>
-                            <span class="text-xs ml-4">read more »</span>
-                        </a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="https://agritech.ie/quality-colostrum-remains-key-for-calves/"
-                            class="flex flex-col"><span class="text-[#a7c2d7] text-base">Quality Colostrum
-                                Remains Key for Calves</span>
-                            <span class="text-xs ml-4">read more »</span></a>
-                    </li>
-                </ul>
+                @if (is_string($posts))
+                    <p>{{ $posts }}</p> {{-- Error message --}}
+                @else
+                    <ul>
+                        @foreach ($posts as $post)
+                            <li class="mb-4">
+                                <a href="{{ $post->url }}" target="_blank" rel="noopener" class="flex flex-col">
+                                    <span class="text-[#a7c2d7] text-base">{!! $post->title !!}</span>
+                                    <span class="text-xs ml-4">read more »</span>
+                                </a>
+                            </li>
+                        @endforeach
+                    </ul>
+                @endif
             </div>
         </div>
         <div class="container mx-auto ">
