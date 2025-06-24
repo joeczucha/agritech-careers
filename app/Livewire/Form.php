@@ -94,6 +94,8 @@ class Form extends Component implements HasForms
         $record = Application::create($data);
 
         Mail::to('hello@doctypedigital.ie')->send(new ApplicationMailer($record));
+
+        $this->form->fill();
     }
 
     public function render()
