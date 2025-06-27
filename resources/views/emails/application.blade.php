@@ -90,7 +90,7 @@
 
         <div class="field">
             <span class="label">Cover Note:</span>
-            <div class="note">{{ $application->cover_note }}</div>
+            <div class="note">{{ !! $application->cover_note !! }}</div>
         </div>
 
         <p style="margin-top: 2rem; color: #718096;">
