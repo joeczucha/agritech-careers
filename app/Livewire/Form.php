@@ -105,6 +105,8 @@ class Form extends Component implements HasForms
                 ->body('Please contact us on <a href="tel:+3536731590">+353 673 1590</a> or <a href="mailto:info@agritech.ie">info@agritech.ie</a>.')
                 ->danger()
                 ->send();
+
+            return;
         }
 
         Notification::make()
