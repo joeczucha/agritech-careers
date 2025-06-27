@@ -101,7 +101,7 @@ class Form extends Component implements HasForms
                 ->bcc(env('APPLICATION_BCC_ADDRESS'))
                 ->send(new ApplicationMailer($record));
         } catch (\Exception $e) {
-            \Log::error('Mail sending failed: ' . $e->getMessage());
+            Log::error('Mail sending failed: ' . $e->getMessage());
 
             Notification::make()
                 ->title('There was an error with your submission. ')
