@@ -14,6 +14,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Forms;
+use Filament\Notifications\Notification;
 use Filament\Support\Facades\FilamentColor;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
@@ -93,7 +94,25 @@ class Form extends Component implements HasForms
 
         $record = Application::create($data);
 
-        Mail::to('hello@doctypedigital.ie')->send(new ApplicationMailer($record));
+        try {
+            Mail::to(env('APPLICATION_TO_ADDRESS'))
+                ->cc(env('APPLICATION_CC_ADDRESS'))
+                ->bcc(env('APPLICATION_BCC_ADDRESS'))
+                ->send(new ApplicationMailer($record));
+        } catch (\Exception $e) {
+            Notification::make()
+                ->title('There was an error with your submission. ')
+                ->body('Please contact us on <a href="tel:+3536731590">+353 673 1590</a> or <a href="mailto:info@agritech.ie">info@agritech.ie</a>.')
+                ->danger()
+                ->send();
+        }
+
+        Notification::make()
+            ->title('Your application has been submitted.')
+            ->body('We will be in touch shortly.')
+            ->success()
+            ->send();
+
 
         $this->form->fill();
     }
