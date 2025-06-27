@@ -16,6 +16,7 @@ use Filament\Forms\Contracts\HasForms;
 use Filament\Forms;
 use Filament\Notifications\Notification;
 use Filament\Support\Facades\FilamentColor;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
@@ -100,6 +101,8 @@ class Form extends Component implements HasForms
                 ->bcc(env('APPLICATION_BCC_ADDRESS'))
                 ->send(new ApplicationMailer($record));
         } catch (\Exception $e) {
+            \Log::error('Mail sending failed: ' . $e->getMessage());
+
             Notification::make()
                 ->title('There was an error with your submission. ')
                 ->body('Please contact us on <a href="tel:+3536731590">+353 673 1590</a> or <a href="mailto:info@agritech.ie">info@agritech.ie</a>.')
