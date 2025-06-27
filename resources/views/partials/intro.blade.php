@@ -13,8 +13,8 @@
         <div class="col-span-2 p-4">
             <blockquote class="text-white flex flex-col gap-6 border-l-4 border-green pl-4">
                 <p class="text-xl text-green font-semibold italic">
-                    We take great pride in being the trusted providers of grass seed, milk replacers, minerals and
-                    supporting products to farmers across the island of Ireland.
+                    We take great pride in being the trusted providers of grass seed, milk replacers, minerals and other
+                    products to farmers across the island of Ireland.
                 </p>
                 <footer class="text-lg text-slate">
                     <strong class="font-semibold">Brian O'Slatarra</strong><br />

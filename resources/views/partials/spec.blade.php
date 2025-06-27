@@ -1,15 +1,19 @@
 <div class="min-h-240 bg-[#F2F2F2] py-12">
     <div class="container mx-auto grid sm:grid-cols-[1fr_350px] gap-16">
         <div>
-            <h1 class="text-4xl sm:text-5xl leading-tight text-blue">Join our team as a full time Sales Advisor</h1>
+            <h1 class="text-4xl/none sm:text-5xl/none leading-tight text-blue">Join our team as a full time Sales Advisor
+            </h1>
             <div class="max-w-100">
-                <p class="mt-5 text-xl sm:text-2xl text-blue font-bold">We currently have vacancies across our regional
-                    sales
-                    network.
+                <p class="mt-5 text-xl sm:text-2xl text-blue font-bold">Due to growing demand we are adding to our Sales
+                    Advisor team across the country, with immediate vacancies in the following areas.
                 </p>
-                <p class="mt-4 text-xl sm:text-2xl text-green font-bold">West Cork, Waterford, North Laois, & South
-                    Kildare areas
-                </p>
+                <ul class="mt-4 list-disc pl-5 ">
+                    <li class="sm:text-2xl text-green font-bold">West Cork</li>
+                    <li class="sm:text-2xl text-green font-bold">North Laois / South Kildare</li>
+                    <li class="sm:text-2xl text-green font-bold">North Longford / Cavan</li>
+                    <li class="sm:text-2xl text-green font-bold">Waterford</li>
+                    <li class="sm:text-2xl text-green font-bold">East Limerick</li>
+                </ul>
                 <a href="#apply"
                     class="inline-block bg-green mt-8 px-9 py-2 rounded-md text-white text-xl font-bold">Apply
                     today</a>
@@ -73,10 +77,9 @@
             <h2 class="text-lg font-bold text-slate">Benefits</h2>
             <ul class="mt-2 list-disc pl-5 text-slate">
                 <li>Salary</li>
-                <li class="mt-2">Holiday</li>
-                <li class="mt-2">Bonus Scheme</li>
-                <li class="mt-2">Company Vehicle</li>
-                <li class="mt-2">Healthcare</li>
+                <li class="mt-2">Bonus scheme</li>
+                <li class="mt-2">Company vehicle</li>
+                <li class="mt-2">Holiday pay</li>
             </ul>
         </div>
     </div>

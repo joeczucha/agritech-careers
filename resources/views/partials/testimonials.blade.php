@@ -17,8 +17,8 @@
                 <blockquote>
                     <h3 class="text-xl text-blue font-semibold mb-4">Make a real impact</h3>
                     <p class="text-lg text-slate font-semibold italic">
-                        It's very fulfilling working within my area, helping farmers I know improve
-                        performance and get the most from their farms or herds.
+                        It's very fulfilling working within my area, helping farmers I know improve performance and get
+                        the most from their farms and herds.
                     </p>
                 </blockquote>
             </div>
