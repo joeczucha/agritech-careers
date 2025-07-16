@@ -1,7 +1,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    @include('partials.analytics');
+    @include('partials.analytics')
 
     <meta charset="utf-8">
 
