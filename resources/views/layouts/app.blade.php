@@ -1,6 +1,8 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    @include('partials.analytics');
+
     <meta charset="utf-8">
 
     <meta name="application-name" content="{{ config('app.name') }}">
