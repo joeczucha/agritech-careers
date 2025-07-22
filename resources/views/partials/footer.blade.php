@@ -42,7 +42,7 @@
                     <ul>
                         @foreach ($posts as $post)
                             <li class="mb-4">
-                                <a href="{{ $post->url }}" target="_blank" rel="noopener" class="flex flex-col">
+                                <a href="{{ $post->url }}" rel="noopener" class="flex flex-col">
                                     <span class="text-[#a7c2d7] text-base">{!! $post->title !!}</span>
                                     <span class="text-xs ml-4">read more »</span>
                                 </a>
