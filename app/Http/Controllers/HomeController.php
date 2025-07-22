@@ -13,7 +13,7 @@ class HomeController extends Controller
         $cacheKey = 'agritech_latest_posts';
         $endpoint = 'https://agritech.ie/wp-json/wp/v2/posts?per_page=5';
 
-        $posts = Cache::remember($cacheKey, now()->addHours(24), function () use ($endpoint) {
+        $posts = Cache::remember($cacheKey, now()->addHours(1), function () use ($endpoint) {
             try {
                 $response = Http::timeout(5)->get($endpoint);
 
