@@ -3,22 +3,25 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+html
+{
     scroll-behavior: smooth;
 }
 
-.overlay {
+.overlay
+{
     position: relative;
 }
 
-.overlay::before {
-    content: "";
+.overlay::before
+{
+    content: '';
 
     background: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.15) 10%,
-        transparent 50%
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.15) 10%,
+    transparent 50%
     );
 
     position: absolute;
@@ -31,8 +34,9 @@ html {
     z-index: 1;
 } */
 
-.masthead::after {
-    content: "";
+.masthead::after
+{
+    content: '';
 
     height: 0;
     padding-top: 100%;
@@ -40,13 +44,16 @@ html {
     display: block;
 }
 
-@media screen(sm) {
-    .masthead::after {
+@media screen(sm)
+{
+    .masthead::after
+    {
         padding-top: calc(545 / 1250 * 100%);
     }
 }
 
-.fi-fo-field-wrp-label span {
+.fi-fo-field-wrp-label span
+{
     @apply text-base;
     @apply text-slate;
 }
