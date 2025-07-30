@@ -2,7 +2,7 @@
 
 @section('content')
     @include('partials.masthead')
-    @include('partials.intro')
+    {{-- @include('partials.intro') --}}
     @include('partials.spotlight')
     @include('partials.spec')
     @include('partials.cta')
