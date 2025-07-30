@@ -1,4 +1,4 @@
-<div class="bg-[#fefefe] py-12">
+<div class="bg-[#fefefe] py-12" data-component="testimonials">
     <div class="container mx-auto">
         <h1 class="text-4xl sm:text-5xl text-blue text-center mb-12">What our people are saying</h1>
         <div class="grid sm:grid-cols-2 gap-8">

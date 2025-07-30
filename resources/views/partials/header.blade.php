@@ -1,4 +1,4 @@
-<header>
+<header data-component="header">
     <div class="site-info bg-green">
         <div
             class="container flex flex-col sm:flex-row justify-end items-center gap-2 sm:gap-4 py-2 sm:py-0 text-white text-sm font-semibold min-h-[36px]">

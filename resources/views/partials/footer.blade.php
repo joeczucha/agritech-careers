@@ -1,4 +1,4 @@
-<footer class="border-top: 2px solid rgba(255, 255, 255, 0.5) text-white text-sm font-bold">
+<footer class="border-top: 2px solid rgba(255, 255, 255, 0.5) text-white text-sm font-bold" data-component="footer">
     <div
         class="py-[64px] bg-[#21397D] bg-[url('https://agritech.ie/wp-content/uploads/2016/07/logo-bg.png')] bg-no-repeat bg-center bg-contain">
         <div class="container mx-auto grid md:grid-cols-12 gap-[60px]">

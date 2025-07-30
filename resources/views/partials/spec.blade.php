@@ -1,4 +1,4 @@
-<div class="min-h-240 bg-[#F2F2F2] py-12">
+<div class="min-h-240 bg-[#F2F2F2] py-12" data-component="spec">
     <div class="container mx-auto grid sm:grid-cols-[1fr_350px] gap-16">
         <div>
             <h1 class="text-4xl/none sm:text-5xl/none leading-tight text-blue">Join our team as a full time Sales Advisor
