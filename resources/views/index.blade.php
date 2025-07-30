@@ -7,6 +7,6 @@
     @include('partials.spec')
     @include('partials.cta')
     @include('partials.testimonials')
-    @include('partials.message')
     <livewire:form />
+    @include('partials.message')
 @endsection
